@@ -11,11 +11,11 @@ public class RemoveDuplicate
 	        {
 	        	if(nums[i]!=nums[j])
 	        	{
-	        		i++;
+                 i++;
 	        		nums[i]=nums[j];
 	        	}
 	        }
-	        return i;
+	        return i+1;
 	    }
 	 public static void main(String[] args)
 	 {
